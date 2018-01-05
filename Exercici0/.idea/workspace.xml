@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="963b8410-154c-49d1-85f1-3a64900b2e93" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/DedicatedServer.java" />
+        <option value="$PROJECT_DIR$/src/Server.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Compound.Final Execution">
+    <configuration name="Master" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="0" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Slave RW" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration name="Slave2 RW" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration name="Slave3 RW" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration name="Slave4 RW" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration name="Slave5 RO" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="2" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration name="Slave6 RO" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="2" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration name="Slave7 RO" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="2" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration name="Slave8 RW" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercici0" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="Final Execution" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="Application" name="Master" />
+      <toRun type="Application" name="Slave RW" />
+      <toRun type="Application" name="Slave2 RW" />
+      <toRun type="Application" name="Slave3 RW" />
+      <toRun type="Application" name="Slave4 RW" />
+      <toRun type="Application" name="Slave5 RO" />
+      <toRun type="Application" name="Slave6 RO" />
+      <toRun type="Application" name="Slave7 RO" />
+      <toRun type="Application" name="Slave8 RW" />
+    </configuration>
+    <list size="10">
+      <item index="0" class="java.lang.String" itemvalue="Application.Master" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Slave RW" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Slave2 RW" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Slave3 RW" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Slave4 RW" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Slave5 RO" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Slave6 RO" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Slave7 RO" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Slave8 RW" />
+      <item index="9" class="java.lang.String" itemvalue="Compound.Final Execution" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="963b8410-154c-49d1-85f1-3a64900b2e93" name="Default" comment="" />
+      <created>1505843591920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505843591920</updated>
+      <workItem from="1505843595300" duration="142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="142000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28417265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DedicatedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="114" column="66" lean-forward="false" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DedicatedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DedicatedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - La Salle/Universitat/2n Curs/DPO/Projecte Final/Projectes/ProjectServer/src/network/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - La Salle/Universitat/2n Curs/DPO/Projecte Final/Projectes/ProjectServer/src/controller/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3773">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercici0.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="324" column="36" lean-forward="false" selection-start-line="324" selection-start-column="36" selection-end-line="324" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DedicatedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="18" column="106" lean-forward="false" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
