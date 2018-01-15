@@ -1,14 +1,31 @@
-import java.util.Arrays;
+/*
+ * Author: Sergi Simó Bosquet - ls30685
+ * Date: January 11th 2018
+ */
 
+/* ************** IMPORTS ************** */
+import java.util.Arrays;
+/* ************************************* */
+
+/**
+ * Class that implements the thread used to do a multithreated merge sort.
+ */
 public class MergeThread extends Thread {
 
     private int[] array;
 
+    /**
+     * Constructor of MergeThread
+     * @param array array to be sorted by this thread.
+     */
     MergeThread (int[] array) {
 
         this.array = array;
     }
 
+    /**
+     * Main method of the thread that implements a merge sort.
+     */
     @Override
     public void run() {
 
@@ -33,6 +50,10 @@ public class MergeThread extends Thread {
         }
     }
 
+    /**
+     * Method that implements de sequential merge sort.
+     * @param a array to be sorted.
+     */
     public static void mergeSort(int[] a) {
 
         if (a.length > 1) {
@@ -47,6 +68,12 @@ public class MergeThread extends Thread {
         }
     }
 
+    /**
+     * Array that merges the two arrays of the iteration.
+     * @param left Left array of the iteration.
+     * @param right Right array of the iteration.
+     * @param a Result of merging left and right.
+     */
     private static void merge(int[] left, int[] right, int[] a) {
 
         int i1 = 0;

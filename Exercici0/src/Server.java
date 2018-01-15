@@ -1,3 +1,9 @@
+/*
+ * Author: Sergi Simó Bosquet - ls30685
+ * Date: January 8th 2018
+ */
+
+/* ************** IMPORTS ************** */
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -5,6 +11,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.LinkedList;
 import java.util.concurrent.Semaphore;
+/* ************************************* */
 
 /**
  * Class that implements the Slave and the Master depending on first command line argument.

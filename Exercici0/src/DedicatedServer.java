@@ -1,8 +1,15 @@
+/*
+ * Author: Sergi Simó Bosquet - ls30685
+ * Date: January 8th 2018
+ */
+
+/* ************** IMPORTS ************** */
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.LinkedList;
+/* ************************************* */
 
 /**
  * Implement de dedicated server in order to attend slaves.
