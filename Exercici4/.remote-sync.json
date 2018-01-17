@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "matagalls.salleurl.edu",
+  "port": "22",
+  "target": "XAT/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ls30685",
+  "password": "ta marE 10",
+  "watch": [],
+  "transport": "scp"
+}
