@@ -29,7 +29,7 @@ public class Main {
     public static void main(String[] args) {
 
         long start, end;
-        int[] arrayToMergeAux = createRandomArray(1000);
+        int[] arrayToMergeAux = createRandomArray(7000);
 
         switch (Integer.parseInt(args[0])) {
 

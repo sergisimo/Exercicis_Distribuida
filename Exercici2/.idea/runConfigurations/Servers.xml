@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Servers" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+    <toRun type="Application" name="ProcessA" />
+    <toRun type="Application" name="ProcessB" />
+    <method />
+  </configuration>
+</component>
