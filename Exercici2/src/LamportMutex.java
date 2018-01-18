@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.concurrent.Semaphore;
 
 public class LamportMutex {
 
@@ -8,6 +9,7 @@ public class LamportMutex {
     private int[] q;
     private int myId;
     private ClientA client;
+    private Semaphore semaphore = new Semaphore(1, true);
 
     LamportMutex(int myId, ClientA client) {
 
@@ -33,6 +35,7 @@ public class LamportMutex {
         v.tick();
         q[myId] = v.getValue(myId);
         client.broadcastMessage(q[myId], "request");
+
         while (!okayCS()) myWait();
     }
 

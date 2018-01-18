@@ -52,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+              <caret line="43" column="54" lean-forward="false" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
               <folding>
                 <element signature="e#0#9415#0" expanded="true" />
                 <element signature="docComment;class#Server#0" expanded="false" />
@@ -60,12 +60,9 @@
                 <element signature="docComment;method#Server#0;class#Server#0" expanded="false" />
                 <element signature="method#Server#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#masterListener#0;class#Server#0" expanded="false" />
-                <element signature="method#masterListener#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#connectToMaster#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#readServer#0;class#Server#0" expanded="false" />
-                <element signature="method#readServer#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#readWriteServer#0;class#Server#0" expanded="false" />
-                <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#read#0;class#Server#0" expanded="false" />
                 <element signature="method#read#0;class#Server#0" expanded="false" />
                 <element signature="docComment;method#write#0;class#Server#0" expanded="false" />
@@ -131,9 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Slave9 RW">
+  <component name="RunManager" selected="Compound.Final Execution">
     <configuration name="Master" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Server" />
@@ -369,19 +366,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2835294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28417265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -439,6 +437,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="43" column="54" lean-forward="false" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#9415#0" expanded="true" />
+            <element signature="docComment;class#Server#0" expanded="false" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DedicatedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="43" column="54" lean-forward="true" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#9415#0" expanded="true" />
+            <element signature="docComment;class#Server#0" expanded="false" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DedicatedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
@@ -448,12 +584,78 @@
             <element signature="docComment;method#Server#0;class#Server#0" expanded="false" />
             <element signature="method#Server#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#masterListener#0;class#Server#0" expanded="false" />
-            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#connectToMaster#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#readServer#0;class#Server#0" expanded="false" />
-            <element signature="method#readServer#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#readWriteServer#0;class#Server#0" expanded="false" />
-            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#read#0;class#Server#0" expanded="false" />
+            <element signature="method#read#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#write#0;class#Server#0" expanded="false" />
+            <element signature="method#write#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="method#waitForToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="method#freeToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="method#getServerType#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#getNumber#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="method#getSlavesSockets#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="method#getListSemaphore#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="method#isToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="method#setNumber#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="method#setToken#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Server#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DedicatedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#DedicatedServer#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#run#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#handleRequest#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#searchNextSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#removeSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSocketByIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getIdentifier#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#getSlave#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="docComment;method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+            <element signature="method#isWantToken#0;class#DedicatedServer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#9415#0" expanded="true" />
+            <element signature="docComment;class#Server#0" expanded="false" />
+            <element signature="class#ServerType#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#Server#0;class#Server#0" expanded="false" />
+            <element signature="method#Server#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#masterListener#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#connectToMaster#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#readServer#0;class#Server#0" expanded="false" />
+            <element signature="docComment;method#readWriteServer#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#read#0;class#Server#0" expanded="false" />
             <element signature="method#read#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#write#0;class#Server#0" expanded="false" />
@@ -617,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <caret line="43" column="54" lean-forward="false" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
           <folding>
             <element signature="e#0#9415#0" expanded="true" />
             <element signature="docComment;class#Server#0" expanded="false" />
@@ -625,12 +827,9 @@
             <element signature="docComment;method#Server#0;class#Server#0" expanded="false" />
             <element signature="method#Server#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#masterListener#0;class#Server#0" expanded="false" />
-            <element signature="method#masterListener#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#connectToMaster#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#readServer#0;class#Server#0" expanded="false" />
-            <element signature="method#readServer#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#readWriteServer#0;class#Server#0" expanded="false" />
-            <element signature="method#readWriteServer#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#read#0;class#Server#0" expanded="false" />
             <element signature="method#read#0;class#Server#0" expanded="false" />
             <element signature="docComment;method#write#0;class#Server#0" expanded="false" />

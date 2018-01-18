@@ -56,6 +56,7 @@ public class ClientA {
 
         try {
             semaphore.acquire();
+            System.out.println("BROADCAST - " + timeStamp + " - " + tag);
             dataOut.writeUTF("broadcast");
             dataOut.writeInt(timeStamp);
             dataOut.writeUTF(tag);
@@ -118,11 +119,18 @@ public class ClientA {
 
         while (true) {
 
-            process.requestToken();
             process.getMutex().requestCS();
+            process.requestToken();
 
 
-            for (int i = 0; i < 10; i++) process.sendToScreen();
+            for (int i = 0; i < 3; i++) {
+                process.sendToScreen();
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
 
             process.getMutex().releaseCS();
             process.releaseToken();

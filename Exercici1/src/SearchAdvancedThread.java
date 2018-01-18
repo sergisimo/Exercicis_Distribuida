@@ -3,12 +3,15 @@
  * Date: January 11th 2018
  */
 
+import java.util.Arrays;
+
 /**
  * Class that implements a multithreated search in an array.
  */
 public class SearchAdvancedThread extends Thread {
 
     private int start;
+    private int realStart;
     private int end;
     private int[] array;
     private int toFind;
@@ -21,11 +24,26 @@ public class SearchAdvancedThread extends Thread {
      * @param array Array where the thread has to search.
      * @param toFind Number that has to be find.
      */
-    SearchAdvancedThread (int start, int end, int[] array, int toFind) {
+    SearchAdvancedThread (int start, int end, int[] array, int toFind, int exercice) {
 
         this.start = start;
         this.end = end;
-        this.array = array;
+        //System.out.println("Start: " + start + " -- " + "End: " + end);
+
+        if (exercice != 4) {
+            /* **** EXERCICI 1.3 **** */
+            this.array = new int[end - start];
+            System.arraycopy(array, start, this.array, 0, end - start);
+            this.start = 0;
+            this.end = this.array.length;
+            this.realStart = start;
+            /* ********************** */
+        } else {
+            /* **** EXERCICI 1.4 **** */
+            this.array = array;
+            /* ********************** */
+        }
+
         this.toFind = toFind;
         this.indexOfNumber = -1;
     }
@@ -36,10 +54,10 @@ public class SearchAdvancedThread extends Thread {
     @Override
     public void run() {
 
-        for (int i = start; i < end && i < array.length; i++) {
+        for (int i = start; i < end; i++) {
 
             if (array[i] == toFind) {
-                indexOfNumber = i;
+                indexOfNumber = realStart + i;
                 break;
             }
         }

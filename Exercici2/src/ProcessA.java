@@ -151,6 +151,7 @@ class ClientThread extends Thread {
             while (true) {
 
                 request = dataIn.readUTF();
+                System.out.println(request);
 
                 outSemaphore.acquire();
                 switch (request) {

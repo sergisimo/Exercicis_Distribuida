@@ -29,7 +29,7 @@ public class Main {
     public static void main(String[] args) {
 
         long start, end;
-        int[] arrayToMergeAux = createRandomArray(7000);
+        int[] arrayToMergeAux = createRandomArray(1000);
 
         switch (Integer.parseInt(args[0])) {
 
@@ -39,24 +39,27 @@ public class Main {
                 LinkedList<Integer> list = new LinkedList<>();
                 SearchThread thread1, thread2;
 
-                for (int integer: INT_ARRAY) list.add(integer);
+                for (int i = 0; i < 1000; i++) list.add(i);
 
-                thread1 = new SearchThread(true, 8, list);
-                thread2 = new SearchThread(false, 8, list);
+                thread1 = new SearchThread(true, 990, list);
+                thread2 = new SearchThread(false, 990, list);
 
                 thread1.start();
                 thread2.start();
                 break;
 
             case 1:
+            case 4:
                 /* ************** EXERCICI 1.3 ************** */
-
-                System.out.println("INDEX OF THE NUMBER 102: " + parallelSearch(102, INT_ARRAY, 24));
-                System.out.println("INDEX OF THE NUMBER 10: " + parallelSearch(10, INT_ARRAY, 1));
-                System.out.println("INDEX OF THE NUMBER 14: " + parallelSearch(14, INT_ARRAY, 7));
-                System.out.println("INDEX OF THE NUMBER 1: " + parallelSearch(1, INT_ARRAY, 13));
-                System.out.println("INDEX OF THE NUMBER 18: " + parallelSearch(18, INT_ARRAY, 19));
-                System.out.println("INDEX OF THE NUMBER 20: " + parallelSearch(20, INT_ARRAY, 20));
+                int [] array = new int[1004];
+                int exercise = Integer.parseInt(args[0]);
+                for (int i = 0; i < 1004; i++) array[i] = i;
+                System.out.println("INDEX OF THE NUMBER 1003: " + parallelSearch(1003, array, 10, exercise));
+                System.out.println("INDEX OF THE NUMBER 10: " + parallelSearch(10, INT_ARRAY, 1, exercise));
+                System.out.println("INDEX OF THE NUMBER 14: " + parallelSearch(14, INT_ARRAY, 7, exercise));
+                System.out.println("INDEX OF THE NUMBER 1: " + parallelSearch(1, INT_ARRAY, 13, exercise));
+                System.out.println("INDEX OF THE NUMBER 18: " + parallelSearch(18, INT_ARRAY, 19, exercise));
+                System.out.println("INDEX OF THE NUMBER 20: " + parallelSearch(20, INT_ARRAY, 20, exercise));
                 break;
 
             case 2:
@@ -105,11 +108,12 @@ public class Main {
      * @param numThreads Number of threads that have to search the number.
      * @return Index of the array where the toSearch number is situated, -1 otherwise.
      */
-    private static int parallelSearch (int toSearch, int[] array, int numThreads) {
+    private static int parallelSearch (int toSearch, int[] array, int numThreads, int exercise) {
 
         SearchAdvancedThread[] threads;
         int increment, nextStartPosition = 0, nextEndPosition;
         boolean decremented = false;
+        int j = 0;
 
         if (numThreads <= 0) {
             System.err.println("Error! The number of threads has to be positive.");
@@ -132,7 +136,7 @@ public class Main {
 
         for (int i = 0; i < numThreads; i++) {
 
-            threads[i] = new SearchAdvancedThread(nextStartPosition, nextEndPosition, array, toSearch);
+            threads[i] = new SearchAdvancedThread(nextStartPosition, nextEndPosition, array, toSearch, exercise);
             threads[i].start();
             nextStartPosition += increment;
             if (((numThreads - i - 1) * (increment - 1)) == array.length - nextEndPosition && !decremented && increment != 1) {
@@ -150,6 +154,7 @@ public class Main {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            j++;
         }
 
         return -1;

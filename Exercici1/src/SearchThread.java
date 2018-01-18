@@ -36,14 +36,14 @@ public class SearchThread extends Thread {
     public void run() {
 
         if (start) {
-            for (int i = 0; i < list.size() / 2; i++) {
+            for (int i = 0; i < list.size(); i++) {
                 if (list.get(i) == toFind) {
                     System.out.println("Thread 1 find the number in the index " + i + ".");
                     break;
                 }
             }
         } else {
-            for (int i = list.size() - 1; i >= list.size() / 2; i--) {
+            for (int i = list.size() - 1; i >= 0; i--) {
                 if (list.get(i) == toFind) {
                     System.out.println("Thread 2 find the number in the index " + i + ".");
                     break;
