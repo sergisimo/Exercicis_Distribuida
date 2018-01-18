@@ -119,7 +119,7 @@ public class ClientB {
             process.getMutex().requestCS();
             process.requestToken();
 
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 10; i++) {
                 process.sendToScreen();
 
                 try {
