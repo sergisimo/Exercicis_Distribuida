@@ -10,11 +10,13 @@ public class ProcessA {
     private static final int PORT_HW = 5000;
     private static final int PORT_LW = 5001;
     private static final int PORT_SCREEN = 5003;
+    private static final int TOKEN_PORT = 5004;
     private static final String IP = "127.0.0.1";
     private static final String TOKEN_REQUEST = "TOKEN";
 
     private ServerSocket serverSocket;
     private ServerSocket lwServerSocket;
+    private ServerSocket tokenSocket;
     private DataOutputStream dataOut;
     private DataInputStream dataIn;
     private DataOutputStream printStream;
@@ -23,13 +25,18 @@ public class ProcessA {
     private ProcessA () {
 
         clients = new Socket[3];
+        TokenThread thread;
 
         try {
             serverSocket = new ServerSocket(PORT_HW);
             lwServerSocket = new ServerSocket(PORT_LW);
+            tokenSocket = new ServerSocket(TOKEN_PORT);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        thread = new TokenThread(tokenSocket, this);
+        thread.start();
     }
 
     private void waitForConnection() {
@@ -182,21 +189,55 @@ class ClientThread extends Thread {
                             }
                         }
                         break;
-
-                    case "request":
-                        System.out.println("TOKEN DEMANAT");
-                        process.waitForToken();
-                        break;
-
-                    case "release":
-                        process.releaseToken();
-                        break;
                 }
 
                 outSemaphore.release();
             }
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
+        }
+    }
+}
+
+class TokenThread extends Thread {
+
+    private ServerSocket socket;
+    private ProcessA process;
+
+    TokenThread (ServerSocket socket, ProcessA process) {
+
+        this.socket = socket;
+        this.process = process;
+    }
+
+    @Override
+    public void run() {
+
+        Socket client;
+        DataOutputStream outStream;
+        DataInputStream inStream;
+        String request;
+
+        while (true) {
+            try {
+
+                client = socket.accept();
+
+                inStream = new DataInputStream(client.getInputStream());
+                outStream = new DataOutputStream(client.getOutputStream());
+
+                request = inStream.readUTF();
+
+                if (request.equals("release")) process.releaseToken();
+                else if (request.equals("request")) {
+                    process.waitForToken();
+                    outStream.writeUTF("OK");
+                }
+
+                client.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

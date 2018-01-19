@@ -7,6 +7,7 @@ import java.util.concurrent.Semaphore;
 public class ClientA {
 
     private static final int PORT = 5001;
+    private static final int TOKEN_PORT = 5004;
     private static final int N = 3;
     private static final String IP = "127.0.0.1";
 
@@ -82,12 +83,22 @@ public class ClientA {
 
     private void requestToken() {
 
+        Socket socket;
+        DataOutputStream dataO;
+        DataInputStream dataI;
+
         if (myId == 0 && !firstTime) {
             try {
-                semaphore.acquire();
-                dataOut.writeUTF("request");
-                semaphore.release();
-            } catch (IOException | InterruptedException e) {
+                socket = new Socket("localhost", TOKEN_PORT);
+
+                dataO = new DataOutputStream(socket.getOutputStream());
+                dataI = new DataInputStream(socket.getInputStream());
+                dataO.writeUTF("request");
+                dataI.readUTF();
+
+                socket.close();
+
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }
@@ -97,12 +108,20 @@ public class ClientA {
 
     private void releaseToken() {
 
+        Socket socket;
+        DataOutputStream dataO;
+
         if (myId == 2) {
             try {
-                semaphore.acquire();
-                dataOut.writeUTF("release");
-                semaphore.release();
-            } catch (IOException | InterruptedException e) {
+
+                socket = new Socket("localhost", TOKEN_PORT);
+
+                dataO = new DataOutputStream(socket.getOutputStream());
+                dataO.writeUTF("release");
+
+                socket.close();
+
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }
@@ -132,8 +151,9 @@ public class ClientA {
                 }
             }
 
-            process.getMutex().releaseCS();
             process.releaseToken();
+            process.getMutex().releaseCS();
+
 
             try {
                 Thread.sleep(1000);
